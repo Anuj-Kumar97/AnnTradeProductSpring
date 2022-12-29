@@ -21,7 +21,7 @@ import in.ibm.service.ProductService;
 
 @RestController
 @RequestMapping("/api/v1")
-@CrossOrigin("http://localhost:4200/")
+@CrossOrigin("http://ann-traders-bucket.s3-website.ap-south-1.amazonaws.com/")
 public class ProductController {
 
 	private static final Logger log = LoggerFactory.getLogger(ProductController.class);
